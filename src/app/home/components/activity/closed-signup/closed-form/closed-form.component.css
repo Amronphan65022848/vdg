@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.data h1{
+text-align: center;
+font-size: 32px;
+}
+
+.data{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+button {
+    cursor: pointer;
+    box-shadow:  10px rgba(0, 0, 0, 0.5);
+    border: solid 0px;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 326px;
+    height: 63px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #114201 -90%, #2BA803);
+}

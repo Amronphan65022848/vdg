@@ -1,0 +1,20 @@
+<div class="carousel">
+  <div class="carousel-content">
+    <img class="g-item" src="../../../../assets/imgs/carousal/vdegdonate.png" alt="" data-index="1">
+    <img class="g-item" src="../../../../assets/imgs/carousal/Yellow Illustrative Charity Event Landscape Banner.png" alt="" data-index="2">
+    <img class="g-item" src="../../../../assets/imgs/carousal/Blue Pink Playful Illustrated Volunteer Recruitment Campaign Presentation.png" alt="" data-index="3">
+    <img class="g-item" src="../../../../assets/imgs/carousal/green.png" alt="" data-index="4">
+    <img class="g-item" src="../../../../assets/imgs/carousal/Blue And White Simple Volunteer Needed Poster.png" alt="" data-index="5">
+  </div>
+  <div class="img-controls">
+    <button class="prev" (click)="prevSlide()"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+    </button>
+    <div class="dots">
+      <div class="dot" *ngFor="let i of itemIndexes" [ngClass]="{'active': i === currentIndex}"></div>
+    </div>
+
+
+    <button class="next" (click)="nextSlide()"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>

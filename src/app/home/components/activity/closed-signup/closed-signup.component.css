@@ -1,0 +1,25 @@
+.closed {
+    padding: 44px;
+    /* width: 100%; */
+    /* border: solid black 1px; */
+}
+
+.data-c {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    
+    /* border: solid black 1px */
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.data-c img {
+    width: 100%;
+}
+.dis{
+    margin-left: 20px;
+}

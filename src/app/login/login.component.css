@@ -1,0 +1,110 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    row-gap: 60px;
+    
+
+}
+
+
+.inp-da {
+    width: 95%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 13px;
+    /* background-color: antiquewhite; */
+}
+
+.email {
+    justify-content: center;
+    align-items: center;
+    /* height: 50px; */
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    /* padding: 5px; */
+}
+
+
+.password {
+    justify-content: center;
+    align-items: center;
+    /* height: 50px; */
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    /* padding: 5px; */
+}
+
+.password input {
+    height: 60px;
+    width: 75%;
+    border-radius: 12px;
+    border: 1px solid rgb(185, 185, 182);
+    padding-left: 15px; /* เพิ่ม padding ด้านซ้าย */
+}
+.email input {
+    height: 60px;
+    width: 75%;
+    border-radius: 12px;
+    border: 1px solid rgb(185, 185, 182);
+    padding-left: 15px; /* เพิ่ม padding ด้านซ้าย */
+}
+.img{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width:80% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text a {
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid white;
+    background: linear-gradient(to bottom, #114201 -90%, #2BA803);
+    width: 250px;
+    height: 60px;
+}
+.bottom{
+
+    row-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+   
+  
+}
+.bottom a{
+    text-decoration: none;
+    color: black;
+}
+
+.social img{
+    margin-top: 5px;
+  height: 50px;
+}

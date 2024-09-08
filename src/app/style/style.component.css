@@ -1,0 +1,23 @@
+.style{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    row-gap: 150px;
+}
+h1{
+    text-align: center;
+}
+.buttom{
+    display: flex;
+    height: 60px;
+    gap: 100px;
+    
+    
+    
+}
+.buttom button{
+    height: 60px;
+    width: 300px;
+   
+}
